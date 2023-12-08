@@ -16,7 +16,7 @@ ingress:
   annotations: {}
   path: /
   hosts:
-    - chart-example.local
+    - calculator.local
   tls: []
 
 resources: {}

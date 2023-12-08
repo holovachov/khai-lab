@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ template "helm-guestbook.fullname" . }}
+  name: {{ template "helm-calculator.fullname" . }}
   labels:
-    app: {{ template "helm-guestbook.name" . }}
-    chart: {{ template "helm-guestbook.chart" . }}
+    app: {{ template "helm-calculator.name" . }}
+    chart: {{ template "helm-calculator.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:

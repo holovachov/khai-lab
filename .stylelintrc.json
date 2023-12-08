@@ -1,0 +1,28 @@
+{
+  "customSyntax": "postcss-scss",
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "plugins": ["stylelint-order"],
+      "extends": ["stylelint-config-standard-scss"],
+      "rules": {
+        "color-hex-length": "long",
+        "max-line-length": null,
+        "no-descending-specificity": null,
+        "no-invalid-position-at-import-rule": null,
+        "selector-class-pattern": null,
+        "shorthand-property-no-redundant-values": null,
+        "value-keyword-case": [
+          "lower",
+          {
+            "ignoreKeywords": ["currentColor"]
+          }
+        ],
+        "order/properties-alphabetical-order": true,
+        "scss/at-extend-no-missing-placeholder": null,
+        "scss/at-mixin-argumentless-call-parentheses": "always",
+        "scss/dollar-variable-empty-line-before": null
+      }
+    }
+  ]
+}

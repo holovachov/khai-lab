@@ -1,1 +1,1 @@
-# khai-lab
+# Lab
